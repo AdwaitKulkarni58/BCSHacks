@@ -1,0 +1,139 @@
+#title {
+  color: #fffbe9;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #1C658C;;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 4% 15% 0% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}
+
+#input {
+  padding: 5% 15% 2% 15%;
+  background-color: #D8D2CB;
+}
+
+#google-map-outline {
+  background-color: #D8D2CB;
+  height:550px;
+}
+
+/* #google-map {
+
+} */
+
+.input-address {
+  width: 30rem;
+}
+.btn {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+#form-outline {
+  background-color: #D8D2CB;
+
+}
+
+#form {
+  padding: 5% 5% 5% 5%;
+  margin: 5% 10% 8% 10%;
+  width: 80%;
+}
+
+.fill-in-form {
+  text-align: left;
+  padding-top: 5%;
+}
+
+.content-block {
+  margin-bottom: 2rem;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: black !important;
+}
+
+#select-date-label {
+  display: inline-block;
+}
+
+#select-date {
+  display: inline-block;
+  width: 10rem;
+}
+
+.padding {
+  padding: 5rem !important;
+  margin-left: 300px;
+}
+
+.card {
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #c8ced3;
+  border-radius: 0.25rem;
+}
+
+.card-header:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #f0f3f5;
+  border-bottom: 1px solid #c8ced3;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.form-control:focus {
+  color: #5c6873;
+  background-color: #fff;
+  border-color: #c8ced3 !important;
+  outline: 0;
+  box-shadow: 0 0 0 #f44336;
+}
+
+#code {
+  font-size: 1.6rem;
+  text-align: center;
+}
